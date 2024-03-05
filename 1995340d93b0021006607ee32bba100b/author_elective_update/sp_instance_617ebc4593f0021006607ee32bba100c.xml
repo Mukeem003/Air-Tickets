@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">826e304593f0021006607ee32bba1014</sp_column>
+        <sp_widget display_value="Destinations">c8fcb84193f0021006607ee32bba10af</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 18:21:36</sys_created_on>
+        <sys_id>617ebc4593f0021006607ee32bba100c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope>
+        <sys_update_name>sp_instance_617ebc4593f0021006607ee32bba100c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 18:21:36</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=617ebc4593f0021006607ee32bba100c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IndiGoa">1995340d93b0021006607ee32bba100b</application>
+        <file_path/>
+        <instance_id>e81d408b1bce7190c8432f8dee4bcbc1</instance_id>
+        <instance_name>dev195139</instance_name>
+        <name>sp_instance_617ebc4593f0021006607ee32bba100c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">826e304593f0021006607ee32bba1014</sp_column><sp_widget display_value="Destinations">c8fcb84193f0021006607ee32bba10af</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-05 18:21:36</sys_created_on><sys_id>617ebc4593f0021006607ee32bba100c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package><sys_policy/><sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope><sys_update_name>sp_instance_617ebc4593f0021006607ee32bba100c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-05 18:21:36</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=617ebc4593f0021006607ee32bba100c"/></record_update>]]></payload>
+        <payload_hash>-2125610465</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d995340d93b0021006607ee32bba100d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 18:21:36</sys_created_on>
+        <sys_id>257ebc4593f0021006607ee32bba100e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e0fd982c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 18:21:36</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>697ebc450bf00210821879a9c11d5c0d</update_guid>
+        <update_guid_history>697ebc450bf00210821879a9c11d5c0d:-2125610465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3e8e348593f0021006607ee32bba1003</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 18:21:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4b8fae87f34c49469b05c50d9eed3f01</sys_id>
+        <sys_metadata>617ebc4593f0021006607ee32bba100c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope>
+        <sys_scope_delete display_value="">5cce8ffb8c024c44acaa786aa08e8c04</sys_scope_delete>
+        <sys_update_name>sp_instance_617ebc4593f0021006607ee32bba100c</sys_update_name>
+        <sys_update_version display_value="sp_instance_617ebc4593f0021006607ee32bba100c">257ebc4593f0021006607ee32bba100e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 18:21:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

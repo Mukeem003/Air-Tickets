@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Pricing</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="price">0ec5814d93f0021006607ee32bba1096</sp_page>
+        <sp_rectangle_menu display_value="Indigoa-Menu">c300c9c593f0021006607ee32bba1025</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 18:55:18</sys_created_on>
+        <sys_id>fc16c50d93f0021006607ee32bba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pricing</sys_name>
+        <sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_fc16c50d93f0021006607ee32bba1034</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 18:55:18</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc16c50d93f0021006607ee32bba1034"/>
+</record_update>

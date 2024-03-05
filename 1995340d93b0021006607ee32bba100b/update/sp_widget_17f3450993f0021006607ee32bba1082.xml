@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[// Client Script for Booking Form Widget
+function submitBooking() {
+    const departureCity = document.getElementById('departure-city').value;
+    const destinationCity = document.getElementById('destination-city').value;
+    const departureDate = document.getElementById('departure-date').value;
+    const returnDate = document.getElementById('return-date').value;
+    const passengerCount = document.getElementById('passenger-count').value;
+    const selectedClass = document.getElementById('class').value;
+    const specialRequests = document.getElementById('special-requests').value;
+
+    // Implement your booking submission logic here
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* CSS for Booking Form Widget */
+.booking-form-widget {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+#booking-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>booking</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Booking</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 18:45:45</sys_created_on>
+        <sys_id>17f3450993f0021006607ee32bba1082</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Booking</sys_name>
+        <sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope>
+        <sys_update_name>sp_widget_17f3450993f0021006607ee32bba1082</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 19:00:30</sys_updated_on>
+        <template><![CDATA[<!-- HTML for Booking Form Widget -->
+<div class="booking-form-widget">
+    <h3>Flight Booking Form</h3>
+    <form id="booking-form">
+        <label for="departure-city">Departure City:</label>
+        <input type="text" id="departure-city" required>
+
+        <label for="destination-city">Destination City:</label>
+        <input type="text" id="destination-city" required>
+
+        <label for="departure-date">Departure Date:</label>
+        <input type="date" id="departure-date" required>
+
+        <label for="return-date">Return Date:</label>
+        <input type="date" id="return-date" required>
+
+        <label for="passenger-count">Number of Passengers:</label>
+        <input type="number" id="passenger-count" min="1" required>
+
+        <label for="class">Class:</label>
+        <select id="class" required>
+            <option value="economy">Economy</option>
+            <option value="business">Business</option>
+            <option value="first-class">First Class</option>
+        </select>
+
+        <label for="special-requests">Special Requests:</label>
+        <textarea id="special-requests" placeholder="Any special requests"></textarea>
+
+        <button type="button" onclick="submitBooking()">Submit Booking</button>
+    </form>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

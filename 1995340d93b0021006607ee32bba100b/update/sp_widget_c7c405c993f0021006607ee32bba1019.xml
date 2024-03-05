@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[// Client Script for Customer Support Widget
+function submitSupportRequest() {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Simplified logic; in a real system, this would involve backend processing
+   
+
+    // You can add logic here to send this information to a backend system
+    // using AJAX or another method to handle customer support requests.
+    // In a real-world scenario, you would likely involve server-side code.
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* CSS for Customer Support Widget */
+.customer-support-widget {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+#support-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>customer_support</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Customer Support</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 18:49:17</sys_created_on>
+        <sys_id>c7c405c993f0021006607ee32bba1019</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Customer Support</sys_name>
+        <sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope>
+        <sys_update_name>sp_widget_c7c405c993f0021006607ee32bba1019</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 18:59:43</sys_updated_on>
+        <template><![CDATA[<!-- HTML for Customer Support Widget -->
+<div class="customer-support-widget">
+    <h3>Contact Customer Support</h3>
+    <form id="support-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="button" onclick="submitSupportRequest()">Submit Request</button>
+    </form>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

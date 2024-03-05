@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">1385c90d93f0021006607ee32bba1021</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 18:52:35</sys_created_on>
+        <sys_id>d385c90d93f0021006607ee32bba1023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope>
+        <sys_update_name>sp_column_d385c90d93f0021006607ee32bba1023</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 18:52:35</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IndiGoa">1995340d93b0021006607ee32bba100b</application>
+        <file_path/>
+        <instance_id>e81d408b1bce7190c8432f8dee4bcbc1</instance_id>
+        <instance_name>dev195139</instance_name>
+        <name>sp_column_d385c90d93f0021006607ee32bba1023</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">1385c90d93f0021006607ee32bba1021</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-05 18:52:35</sys_created_on><sys_id>d385c90d93f0021006607ee32bba1023</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package><sys_policy/><sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope><sys_update_name>sp_column_d385c90d93f0021006607ee32bba1023</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-05 18:52:35</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-895567385</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>d995340d93b0021006607ee32bba100d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 18:52:35</sys_created_on>
+        <sys_id>9f85c90d93f0021006607ee32bba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e0ff5dda20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 18:52:35</sys_updated_on>
+        <type>Column</type>
+        <update_guid>d385c90d10f002105f7e2ee21765c624</update_guid>
+        <update_guid_history>d385c90d10f002105f7e2ee21765c624:-895567385</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">21954d0d93f0021006607ee32bba10e1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 18:52:44</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>1db495f2b1e3404587e223e97c28c239</sys_id>
+        <sys_metadata>d385c90d93f0021006607ee32bba1023</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope>
+        <sys_scope_delete display_value="">5cce8ffb8c024c44acaa786aa08e8c04</sys_scope_delete>
+        <sys_update_name>sp_column_d385c90d93f0021006607ee32bba1023</sys_update_name>
+        <sys_update_version display_value="sp_column_d385c90d93f0021006607ee32bba1023">9f85c90d93f0021006607ee32bba1024</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 18:52:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
