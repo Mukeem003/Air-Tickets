@@ -29,7 +29,7 @@ function bookFlight(flightId, price) {
 
 #flight-options li button {
     background-color: #4CAF50;
-    color: white;
+    color: yellow;
     border: none;
     padding: 8px 12px;
     text-align: center;
@@ -44,7 +44,7 @@ function bookFlight(flightId, price) {
         <description/>
         <docs/>
         <field_list/>
-        <has_preview>false</has_preview>
+        <has_preview>true</has_preview>
         <id>price</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
@@ -58,36 +58,58 @@ function bookFlight(flightId, price) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-05 18:43:36</sys_created_on>
         <sys_id>8883490993f0021006607ee32bba10bd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Price</sys_name>
         <sys_package display_value="IndiGoa" source="x_1305251_indigoa">1995340d93b0021006607ee32bba100b</sys_package>
         <sys_policy/>
         <sys_scope display_value="IndiGoa">1995340d93b0021006607ee32bba100b</sys_scope>
         <sys_update_name>sp_widget_8883490993f0021006607ee32bba10bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-05 18:44:17</sys_updated_on>
+        <sys_updated_on>2024-03-06 20:20:15</sys_updated_on>
         <template><![CDATA[<!-- HTML for Flight Price Comparison Widget -->
-<div class="flight-price-comparison-widget">
+
+<center>
+  <div class="flight-price-comparison-widget">
     <h3>Flight Price Comparison</h3>
     <ul id="flight-options">
         <li data-flight-id="flight1" data-price="350">
-            <span>Flight 1</span>
+            <span>Indigo</span>
             <span>$350</span>
             <button onclick="bookFlight('flight1', 350)">Book Now</button>
         </li>
         <li data-flight-id="flight2" data-price="420">
-            <span>Flight 2</span>
+            <span>Airbus A380</span>
             <span>$420</span>
             <button onclick="bookFlight('flight2', 420)">Book Now</button>
         </li>
         <li data-flight-id="flight3" data-price="300">
-            <span>Flight 3</span>
+            <span>Luftansa</span>
+            <span>$300</span>
+            <button onclick="bookFlight('flight3', 300)">Book Now</button>
+        </li>
+        <!-- Add more flight options as needed -->
+    </ul>
+  <ul id="flight-options">
+        <li data-flight-id="flight1" data-price="350">
+            <span>KLM</span>
+            <span>$350</span>
+            <button onclick="bookFlight('flight1', 350)">Book Now</button>
+        </li>
+        <li data-flight-id="flight2" data-price="420">
+            <span>Qatar Airlines</span>
+            <span>$420</span>
+            <button onclick="bookFlight('flight2', 420)">Book Now</button>
+        </li>
+        <li data-flight-id="flight3" data-price="300">
+            <span>Emirates</span>
             <span>$300</span>
             <button onclick="bookFlight('flight3', 300)">Book Now</button>
         </li>
         <!-- Add more flight options as needed -->
     </ul>
 </div>
+</center>
+
 ]]></template>
     </sp_widget>
 </record_update>
